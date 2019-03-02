@@ -3,6 +3,7 @@ Section: universe/x11
 Priority: optional
 Maintainer: Jam Risser <jam@codejam.ninja>
 Build-Depends: debhelper (>= 10),
+               cmake,
                i3-wm,
                libasound2-dev,
                libcairo2-dev,
