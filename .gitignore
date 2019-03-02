@@ -1,0 +1,5 @@
+/build
+/build*.tar.gz
+/polybar*
+/build-area
+/message
