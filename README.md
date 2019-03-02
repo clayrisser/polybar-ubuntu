@@ -4,14 +4,17 @@
 
 > polybar build for ubuntu deb
 
-[polybar_3.3.0-1_amd64.deb](https://github.com/codejamninja/polybar-ubuntu/releases/download/3.3.0/polybar_3.3.0-1_amd64.deb)
-
 Please ★ this repo if you found it useful ★ ★ ★
 
 
 ## Features
 
 * Tested on Ubuntu Bionic
+
+
+## Download
+
+[polybar_3.3.0-1_amd64.deb](https://github.com/codejamninja/polybar-ubuntu/releases/download/3.3.0/polybar_3.3.0-1_amd64.deb)
 
 
 ## Installation
@@ -28,6 +31,7 @@ sudo apt-get install polybar
 curl -L https://github.com/codejamninja/polybar-ubuntu/releases/download/3.3.0/polybar_3.3.0-1_amd64.deb
 sudo dpkg -i polybar_3.3.0-1_amd64.deb
 ```
+
 
 ## Dependencies
 
