@@ -24,9 +24,6 @@ export DH_VERBOSE=1
 #	dh_auto_configure -- #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 
 
-override_dh_auto_configure:
-
 override_dh_auto_build:
-	(echo; echo y; echo y; echo y; echo y; echo y; echo y; echo y;) | bash ./build.sh
-
-override_dh_usrlocal:
+	cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr .
+	make -j$(shell nproc)

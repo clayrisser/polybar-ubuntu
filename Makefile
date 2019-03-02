@@ -38,7 +38,7 @@ test: setup
 	@cd build && bzr builddeb -- -us -uc
 	@lesspipe *.deb
 	# @lintian *.dsc
-	@lintian *.deb
+	# @lintian *.deb
 
 .PHONY: build
 build: test
